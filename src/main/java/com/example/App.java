@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 public class App {
     public static void main(String[] args) {
         Logger logger = Logger.getLogger(App.class.getName());
-        logger.log(Level.INFO, "hello, world");;
+        logger.log(Level.INFO, "hello, world");
     }
 
     public int add(int a, int b) {
